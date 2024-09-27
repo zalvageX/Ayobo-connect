@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AyoboConnect</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="index.html">
+          <img src="Images/Logo.png" class="logo" />
+          </a>
+        <ul>
+          <li><img src="Images/Bell_fill.png" alt="" /></li>
+          <li><img src="Images/Message_alt_fill.png" alt="" /></li>
+          <li><img src="Images/Video_fill.png" alt="" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="Images/Search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="Images/Profile picture.png" />
+        </div>
+      </div>
+
+      <!---settings menu---------->
+
+      <div class="settings-menu">
+
+        <div id="dark-btn">
+            <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="Images/Profile picture.png" style="border: 0" />
+            <div>
+              <p>Christopher Okeke</p>
+              <a href="Profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr>
+          <div class="user-profile">
+            <img src="Images/Chat_alt_fill.png" style="border: 0" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us get better</a>
+            </div>
+          </div>
+          <hr>
+          <div class="setting-links">
+            <img src="Images/Setting_fill.png" class="settings-icon">
+            <a href="#">Settings & Privacy <img src="Images/right.png" width="8px"></a>
+          </div>
+          <div class="setting-links">
+            <img src="Images/Question_fill.png" class="settings-icon">
+            <a href="#">Help & Support<img src="Images/right.png" width="8px"></a>
+          </div>
+          <div class="setting-links">
+            <img src="Images/Moon_alt_fill.png" class="settings-icon">
+            <a href="#">Display & Accessibiity <img src="Images/right.png" width="8px"></a>
+          </div>
+          <div class="setting-links">
+            <img src="Images/Sign_out_squre_fill.png" class="settings-icon">
+            <a href="#">Logout <img src="Images/right.png" width="8px"></a>
+          </div>
+
+
+
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!---left sidebar---------->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="Images/news.png" /> What's Trending</a>
+          <a href="#"><img src="Images/User_fill.png" /> Friends</a>
+          <a href="#"><img src="Images/Group.png" /> Group</a>
+          <a href="#"
+            ><img src="Images/shopping-cart (2) 1.png" /> Oja Adugbo</a
+          >
+          <a href="#"><img src="Images/Video.png" /> Watch</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+          <p>Your Shortcuts</p>
+          <a href="#"><img src="Images/Restaurants.JPG" /> Restaurants</a>
+          <a href="#"><img src="Images/Hangouts.jpg" /> Favourite Chill spot</a>
+          <a href="#"><img src="Images/movies.jpg" /> Cinema's </a>
+          <a href="#"><img src="Images/UiUx designer.JPG" /> Ux Designer</a>
+        </div>
+      </div>
+      <!---main content--------->
+      <div class="main-content">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="Images/Add_round_fill.png" />
+            <p>Share Story</p>
+          </div>
+          <div class="story story2">
+            <img src="Images/mem1.png" />
+            <p>kiki</p>
+          </div>
+          <div class="story story3">
+            <img src="Images/mem2.png" />
+            <p>Christopher</p>
+          </div>
+          <div class="story story4">
+            <img src="Images/mem3.png" />
+            <p>Annabelle</p>
+          </div>
+          <div class="story story5">
+            <img src="Images/fred.png" />
+            <p>Jyde</p>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="Images/Profile picture.png" />
+            <div>
+              <p>Christopher Okeke</p>
+              <small
+                >Pubic
+                <img
+                  src="Images/Arrow_drop_down_big.png"
+                  style="
+                    width: 7px;
+                    border-radius: 0;
+                    border: 0;
+                    margin-left: 4px;
+                  "
+              /></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea
+              placeholder="Wetin dey your mind, Senior Man?"
+              rows="3"
+            ></textarea>
+            <div class="add-post-links">
+              <a href="#"><img src="Images/live video.png" />Go Live</a>
+              <a href="#"><img src="Images/camera.png" />Photo/Video</a>
+              <a href="#"><img src="Images/smiley.png" />Feeling/Activity</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Images/Profile picture.png" />
+              <div>
+                <p>Christopher Okeke</p>
+                <span>Feb 06 2024, 04:28pm</span>
+              </div>
+            </div>
+            <a href="#"
+              ><img
+                src="Images/menu 1.png"
+                style="width: 32px; border-radius: 0; border: 0"
+            /></a>
+          </div>
+
+          <p class="post-text">
+            This is a case study i recently did. I've learnt from my mistakes
+            and sure i'm doing really awesome things now. <br />Push yourself
+            until you get better. Watch this clip on my
+            <a href="#">#YouTubeChannel</a>.
+          </p>
+          <img src="Images/Cover page.jpg" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="Images/like (1) 1.png" />348</div>
+              <div><img src="Images/customer-support 1.png" />48</div>
+              <div><img src="Images/share.png" />210</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="Images/Profile picture.png" /><img
+                src="Images/Arrow_drop_down_big.png"
+                style="
+                  width: 6px;
+                  border-radius: 0;
+                  border: 0;
+                  margin-left: 4px;
+                "
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Images/mem3.png" />
+              <div>
+                <p>Annabelle Toll</p>
+                <span>Feb 01 2024, 08:18am</span>
+              </div>
+            </div>
+            <a href="#"
+              ><img
+                src="Images/menu 1.png"
+                style="width: 32px; border-radius: 0; border: 0"
+            /></a>
+          </div>
+
+          <p class="post-text">
+            I can't be the only one excited about seeing
+            <span>Emily Blunt</span> reprise her role again.
+          </p>
+          <img src="Images/movie 2.JPG" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="Images/like (1) 2.png" />20</div>
+              <div><img src="Images/customer-support 1.png" />8</div>
+              <div><img src="Images/share.png" />12</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="Images/mem3.png" /><img
+                src="Images/Arrow_drop_down_big.png"
+                style="
+                  width: 6px;
+                  border-radius: 0;
+                  border: 0;
+                  margin-left: 4px;
+                "
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Images/mem3.png" />
+              <div>
+                <p>Annabelle Toll</p>
+                <span>Feb 07 2024, 08:18am</span>
+              </div>
+            </div>
+            <a href="#"
+              ><img
+                src="Images/menu 1.png"
+                style="width: 32px; border-radius: 0; border: 0"
+            /></a>
+          </div>
+
+          <p class="post-text">
+            Okay... So this movie made over a billion Naira. Honest opinions,
+            please rate the movie 1-10!
+          </p>
+          <img src="Images/tribe.png" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="Images/like (1) 1.png" />29</div>
+              <div><img src="Images/customer-support 1.png" />52</div>
+              <div><img src="Images/share.png" />86</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="Images/mem3.png" /><img
+                src="Images/Arrow_drop_down_big.png"
+                style="
+                  width: 6px;
+                  border-radius: 0;
+                  border: 0;
+                  margin-left: 4px;
+                "
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Images/Profile picture.png" />
+              <div>
+                <p>Christopher Okeke</p>
+                <span>Feb 07 2024, 04:28pm</span>
+              </div>
+            </div>
+            <a href="#"
+              ><img
+                src="Images/menu 1.png"
+                style="width: 32px; border-radius: 0; border: 0"
+            /></a>
+          </div>
+
+          <p class="post-text">
+            Just completed this design of an NFT landing Page . You can go over
+            to my page on
+            <a href="#">#Behance</a> to see more.
+          </p>
+          <img src="Images/nft.jpg" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="Images/like (1) 2.png" />408</div>
+              <div><img src="Images/customer-support 1.png" />70</div>
+              <div><img src="Images/share.png" />419</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="Images/Profile picture.png" /><img
+                src="Images/Arrow_drop_down_big.png"
+                style="
+                  width: 6px;
+                  border-radius: 0;
+                  border: 0;
+                  margin-left: 4px;
+                "
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="Images/Profile picture.png" />
+              <div>
+                <p>Christopher Okeke</p>
+                <span>Feb 06 2024, 04:28pm</span>
+              </div>
+            </div>
+            <a href="#"
+              ><img
+                src="Images/menu 1.png"
+                style="width: 32px; border-radius: 0; border: 0"
+            /></a>
+          </div>
+
+          <p class="post-text">
+            Just completed this design of an NFT landing Page . You can go over
+            to my page on
+            <a href="#">#Behance</a> to see more.
+          </p>
+          <img src="Images/imtro.jpg" class="post-img" />
+
+          <div class="post-row">
+            <div class="activity-icon">
+              <div><img src="Images/like (1) 1.png" />348</div>
+              <div><img src="Images/customer-support 1.png" />48</div>
+              <div><img src="Images/share.png" />210</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="Images/Profile picture.png" /><img
+                src="Images/Arrow_drop_down_big.png"
+                style="
+                  width: 6px;
+                  border-radius: 0;
+                  border: 0;
+                  margin-left: 4px;
+                "
+              />
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="load-more">Load More</button>
+      </div>
+
+      <!---right sidebar-------->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>21</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>My Birthday</h4>
+            <p><img src="Images/location 2.png" /> Light Houde Gardens</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>08</h3>
+            <span>April</span>
+          </div>
+          <div class="right-event">
+            <h4>Tech Launch</h4>
+            <p><img src="Images/location 2.png" /> Paradise Community Centre</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="sidebar-title">
+          <h4>Ads</h4>
+          <a href="#">Close</a>
+        </div>
+        <img
+          src="Images/rapidev.jpg"
+          alt="rapidev consuting a client"
+          class="sidebar-ads"
+        />
+
+        <div class="sidebar-title">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chats</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="Images/mem2.png" />
+          </div>
+          <p>Christopher Okeke</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="Images/mem1.png" />
+          </div>
+          <p>kiki Attah</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="Images/mem3.png" />
+          </div>
+          <p>Annabelle Toll</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright 2024 - AyoboConnect demo page</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
